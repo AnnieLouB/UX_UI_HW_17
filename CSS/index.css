@@ -1,0 +1,208 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F5EB;
+}
+
+.navigation {
+    display:flex;
+    justify-content:space-between;
+    background-color: #F9F5EB;
+    width: 90%;
+}
+
+.logo {
+    position:left;
+    height:200px;
+    width:200px;
+    padding:20px; 
+}
+.nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.litag {
+    font-family:'Lora';
+    font-style:normal;
+    font-size:26px;
+    text-decoration: none;
+    padding-left:20px;
+
+}
+.text {
+    background:#F9F5EB;
+    /* width: 100%; */
+    padding:20px 40px;
+    color: #022E40;
+}
+
+.textH1 {
+    font-family:'Lora';
+    font-style:normal;
+    font-size:55px;
+}
+
+  .textH2 {
+    font-family:'Lora';
+    font-style:normal;
+    font-size:44px;
+    padding:30px 0px;
+}
+
+  .textH3 {
+    font-family:'Lora';
+    font-style:normal;
+    font-weight:125px;
+    font-size:26px;
+    rem:2.2px;
+}
+
+.textB {
+    font-family:'Work Sans';
+    font-style:normal;
+    font: weight 140px;
+    font-size:20px;
+}
+
+.heroImg {
+    width: 992px;
+    background:#F9F5EB;
+    margin:auto
+}
+
+.imageContainer {
+    position:relative;
+    width: 80px;
+    margin:auto;
+    margin-left:400px;
+    display:flex;
+    justify-content:flex-end;
+    background:#F9F5EB;
+}
+
+.textContaineraffec {
+    width:50%;
+    height: 100px;
+    padding:0px 50px;
+
+   
+}
+
+.mobileImage {
+    position: absolute;
+    left:0;
+    top:85px;
+    width:233px;
+    margin-left: 5%;
+}
+
+.desktopImage {
+    position:relative;
+    width: 900px;
+}
+
+#container {
+    background-color: #F9F5EB;
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+}
+
+.containerBlock {
+    width: 25%;
+    background-color: #B1CABC;
+}
+
+.left {
+    background-color: #B1CABC 
+}
+
+.ustdImage {
+    width:50%;
+    height:auto;
+    width: 100%;
+}
+
+.textContainerUstd {
+    background-color:#B1CABC;
+    width:auto;
+    padding:20px;
+}
+
+.arloomImage {
+    width: 50%;
+    height: auto;
+    width: 100%;
+}   
+    
+.center {
+    background-color: #B1CABC;  
+}      
+
+.textContainerarloom {
+    background-color: #B1CABC;
+    width:auto;
+    height:100px;
+    padding:20px;
+}
+
+.right {
+    background-color: #B1CABC;
+}
+
+.craneflyImage {
+    width:50%;
+    height:auto;
+    width: 100%;
+}
+
+.textContainerCranefly {
+    background-color:#B1CABC;
+    width:auto;
+    height:100px;
+    padding:20px
+}
+
+.Instagram {
+    background-color: #F9F5EB;
+}
+.footer {
+    display:flex;
+    justify-content:space-between;
+    background-color: #F9F5EB;
+    width:90%;
+}
+
+.contactMe {
+    position:left;
+    height:200px;
+    width:200px;
+    padding:20px 
+}
+    
+.contactInfo {
+    position:center;
+    height:200px;
+    width:200px;
+    padding:20px 
+}
+
+.socials {
+    position:right;
+    padding-left:20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .heroImg {
+        width:100%
+    }
+}
